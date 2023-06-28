@@ -1,0 +1,36 @@
+#modal-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  overflow: clip;
+}
+
+#modal-title {
+  font-size: 22px;
+}
+
+#modal-footer {
+  justify-self: right;
+  align-self: center;
+}
+
+#photo-details {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: inherit;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  justify-content: flex-start;
+  height: fit-content;
+}
+button {
+  margin: 0px 3px;
+}
+
+img {
+  object-fit: scale-down;
+}

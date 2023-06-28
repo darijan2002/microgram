@@ -1,0 +1,22 @@
+.thumbnail {
+  background: var(--accent-color);
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.thumbnail-photo {
+  height: 150px;
+  width: 150px;
+  object-fit: scale-down;
+  border-radius: 10px;
+}
+
+section.thumbnail a {
+  text-decoration: none;
+  color: var(--primary-color);
+  display: block;
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+}
